@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        sutra
+    </title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="splide-4.1.3/dist/css/splide.min.css">
+    <!-- <link rel="icon" href="assets/images/315A7744.webp"> -->
+</head>
+
+<body>
+    <div class="eye-backgroun">
+
+    </div>
+    <div class="eye" data-id="">
+        <div class="eye-show" style="height: 100vh;
+        overflow: scroll;">
+            <div class="eye-img">
+                <img src="" alt="" width="100%" class="sog">
+            </div>
+            <div class="eye-text">
+                <a href="#" style="color: #000 ; text-decoration: none;">
+                    <p style="font-size: large;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    margin: .65em 0 .5em;" class="tit"></p>
+                </a>
+                <h4 style="font-weight: 400; color:  rgb(99, 101, 102);margin-top: 5px;" class="pri"> </h4>
+                <p style="font-size: 14px;
+                text-transform: uppercase;
+                font-weight: 700;
+                margin: .65em 0 .5em;">color : <span class="cole"></span></p>
+                <p style="font-size: 14px;
+                text-transform: uppercase;
+                font-weight: 700;
+                margin: .65em 0 .5em;">SIZE :
+                    <span class="made"> M</span>
+                </p>
+                <div class="t4s-swatch__list mb-2">
+                    <a href="#" class="swatch__item acc">M</a>
+                    <a href="#" class="swatch__item">L</a>
+                    <a href="#" class="swatch__item">XL</a>
+                    <a href="#" class="swatch__item">2xl</a>
+                </div>
+                <div class="d-flex align-items-center gap-2  row flex-wrap ">
+                    <div class="d-flex col-lg-4 col-sm-5 col-6"
+                        style=" border: #1c2939 1px solid;border-radius: 25px ; order: 1; ">
+                        <button class="btn btn-link px-2" style="width: 30%;color: #1c2939; ;"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                            <i class="fas fa-minus"></i>
+                        </button>
+                        <input id="form1" min="0" name="quantity" value="1" type="number" class=""
+                            style="width: 30%; border: 0 !important; outline: 0 !important; text-align: center;">
+                        <button class="btn btn-link px-2" style="color: #1c2939;width: 30%;"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                    <a href="# " class="lokk" style="position: relative;
+                    width: 38px;
+                    height: 38px;
+                    color: #1c2939;
+                    border: 1px solid #1c2939;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    order: 3;
+                    text-decoration: none;
+                    border-radius: 25px;
+                "><i class="fas fa-heart"></i></a>
+                    <button class="caka col-xl-6 col-12 btn" style="order: 4;border-radius: 25px ;"> اضف الي
+                        السلة</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row offer">
+        <div class="col-3  s-1 gap-3 gadd">
+            <div class="phone d-flex align-items-center gap-1">
+                <i class="fas fa-phone"></i>
+                <a href="#">01005405844</a>
+            </div>
+            <div class="send d-flex align-items-center gap-1">
+                <i class="fas fa-envelope"></i>
+                <a href="#">cs@sutrastores.com</a>
+            </div>
+        </div>
+        <div class="col-xl-6 col-lg-12 s-1 justify-content-center align-items-center gap-1">
+            <i class="fas fa-truck" style="color: #1c2939;"></i>
+            <p>شحن مجانى للطلبات فوق 999 جنيه</p>
+        </div>
+        <div class="col-xl-3 col-lg-12 s-1  gap-3 f-4 gag">
+            <div class="map d-flex  align-items-center gap-1 ">
+                <i class="fas fa-map-location-dot"></i>
+                <a href="#">فروع سترة</a>
+            </div>
+            <div class="lang d-flex align-items-center gap-1">
+                <a href="#">العربية</a>
+                <i class="fas fa-angle-down"></i>
+            </div>
+        </div>
+    </div>
+    <div class="row bor" style="height: 100px;">
+        <div class="col-lg-4 col-3 d-flex align-items-lg-center d-xl-none">
+            <a href="#"
+                style="color: black; text-decoration: none; padding: 0px 15px; display: flex; align-items: center;"
+                class="opw">
+                <i style="font-size: x-large;" class="fas fa-bars-staggered"></i>
+            </a>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-6 d-flex ">
+            <div class="w-100 d-flex align-items-center" style="padding: 0px 15px;">
+                <img src="./assets/images/Logo_General.svg" alt="" class="w-100 h-100">
+            </div>
+        </div>
+        <div class="col-6 d-flex align-items-center csoc">
+            <div class="d-flex search align-items-center w-100 justify-content-between">
+                <input type="text" placeholder=" ابحث عن المنتج اللي انتا عايزه هنا" style="outline: 0;" class="fo">
+                <button class="btn-hed"><span style="font-size: 14px;"> بحث </span></button>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-3 d-flex gap-2 align-items-center justify-content-center">
+            <div>
+                <a href="login.html" class="coka log">
+                    <i class="fas fa-user"></i>
+                </a>
+            </div>
+            <div>
+                <a href="" class="coka open">
+                    <i class="fas fa-cart-shopping"></i>
+                </a>
+            </div>
+            <div>
+                <a href="love.html" class="coka heart">
+                    <i class="fas fa-heart"></i>
+                </a>
+            </div>
+            <div class="bls4">
+
+            </div>
+            <div class="cart">
+                <div class="cart-show ">
+                    <div class="cart-head d-flex justify-content-between align-items-center">
+                        <p> عربة التسوق</p>
+                        <a href="#" style="color: black; text-decoration: none;" class="close"><i
+                                class="fas fa-x "></i></a>
+
+                    </div>
+                    <div class="cart-card">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <ul class="d-flex justify-content-center " style="padding: 15px 0px;">
+            <div class="xte p-1 " style="display: none;">
+                <a href="#" style="color: black; text-decoration: none;" class="cee">
+                    <i class="fas fa-x"></i>
+                </a>
+            </div>
+            <li class="l-1 "><a href="">
+
+                    وصل حديثًا
+                    <span>جديد</span>
+                </a>
+
+            </li>
+            <li class="l-2 hov"><a href=""> الملابس الرجالي
+                    <i class="fas fa-angle-down face" style="font-size: xx-small;"></i>
+
+                </a>
+                <div class="men cas">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <a href="">
+                                    كل التشبرتات
+                                </a>
+                                <a href="">تيشرتات مطبوعه</a>
+                                <a href="">تيشرتات سادة</a>
+                                <a href="">تيشرتات مطبوعه</a>
+                                <a href="">كوليكشن الكليات</a>
+                                <a href="" class="last">كوليكشن انا عربي</a>
+                            </div>
+                            <div class="col-3">
+                                <a href="">كل القمصان</a>
+                                <a href="">قمصان نص كم</a>
+                                <a href="">قمصان بكم طويل</a>
+                                <a href="">قميص مقلم</a>
+                                <a href="">قمصان سادة</a>
+                                <a href="">قمصان مطبوعة</a>
+                            </div>
+                            <div class="col-3">
+                                <a href="">كل الشورتات</a>
+                                <a href="">شورتات قطن وكتان</a>
+                                <a href="">مايوه</a>
+                            </div>
+                            <div class="col-3">
+                                <a href="">كل البناطيل</a>
+                                <a href="">بناطيل جينز</a>
+                                <a href="">بناطيل كارجو</a>
+                                <a href="">سويت بانتس</a>
+                                <a href="">بناطيل جبردين</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="l-3 hov"><a href="">الملابس الاطفالي
+                    <i class="fas fa-angle-down face" style="font-size: xx-small;"></i>
+                    <span>رائج الان</span>
+                </a>
+                <div class="kid cas">
+                    <div class="container">
+                        <div class="kid-div">
+                            <a href="">كل منتجات الاطفالي</a>
+                            <a href="">تيشرتات اطفالي</a>
+                            <a href="">سويت بانتس اطفالي</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="l-4 hov"><a href="">ملابس المنزل
+                    <i class="fas fa-angle-down face" style="font-size: xx-small;"></i>
+                </a>
+                <div class="home cas">
+                    <div class="container">
+                        <div class="home-div">
+                            <a href="">كل ملابس المنزل</a>
+                            <a href="">بيجامات</a>
+                            <a href="">بوكسر</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="l-5 hov"><a href="">احذية
+                    <i class="fas fa-angle-down face" style="font-size: xx-small;"></i>
+                    <span>جديد</span>
+                </a>
+                <div class="shoes cas">
+                    <div class="container">
+                        <div class="sho">
+                            <a href="">كل الاحذية</a>
+                            <a href="">احذية سنيكرز</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="l-6 hov"><a href="">اكسسوارات
+                </a></li>
+            <li class="l-7 hov"><a href="">تصفيات الشتاء
+                    <i class="fas fa-angle-down face" style="font-size: xx-small;"></i>
+                </a>
+                <div class="winter cas">
+                    <div class="container">
+                        <div class="win">
+                            <a href="">كل منتجات الشتاء</a>
+                            <a href="">سويتشرتات</a>
+                            <a href="">بلوفرات</a>
+                            <a href="">جواكيت</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="padding: 0px 15px;">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-current="true"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-label="Slide 1"></button>
+
+
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="//cdn.shopify.com/s/files/1/0569/3246/6848/files/Summer_Slideshow_PC-AR.jpg?v=1688913837"
+                    class="d-block w-100 caik " alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="//cdn.shopify.com/s/files/1/0569/3246/6848/files/summer-vibes-pc-ar_optimized.jpg?v=1687355431"
+                    class="d-block w-100 caik " alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="//cdn.shopify.com/s/files/1/0569/3246/6848/files/Cargo-Pants-PC-AR.png?v=1690647079"
+                    class="d-block w-100 caik " alt="...">
+            </div>
+        </div>
+
+    </div>
+    <section class="w-100 p-3">
+        <div class="container w-100 ">
+            <div class="d-flex w-100 g-5 lol mol">
+                <a href="" style="width: 20%;">
+                    <div class="five text-center">
+                        <img src="./assets/images/Kids.webp" alt="">
+                        <p>كولكشن الاطفالي</p>
+                    </div>
+                </a>
+                <a href="#" style="width: 20%;">
+                    <div class="five text-center">
+                        <img src="./assets/images/dddad768d829948dd10bdfc192bb43e0.webp" alt="">
+                        <p>وصل حديثا</p>
+                    </div>
+                </a>
+                <a href="" style="width: 20%;">
+                    <div class="five text-center">
+                        <img src="./assets/images/Best_Sellers.webp" alt="">
+                        <p>الافضل مبيعا</p>
+                    </div>
+                </a>
+                <a href="" style="width: 20%;">
+                    <div class="five text-center">
+                        <img src="./assets/images/Winter_Clearance_846effc9-c87c-4860-894e-739c70be7dbf.webp" alt="">
+                        <p>تصفيات الشتاء</p>
+                    </div>
+                </a>
+                <a href="" style="width: 20%;">
+                    <div class="five text-center">
+                        <img src="./assets/images/Accessories_e7d8d84b-7141-48aa-956b-4f68e92023f6.webp" alt="">
+                        <p>الاكسسوارات</p>
+                    </div>
+                </a>
+
+            </div>
+            <!-- <div class="d-flex w-100 g-5 lol">
+                        <a href="" style="width: 20%;">
+                            <div class="five text-center">
+                                <img src="./assets/images/Kids.webp" alt="">
+                                <p>كولكشن الاطفالي</p>
+                            </div>
+                        </a>
+                        <a href="#" style="width: 20%;">
+                            <div class="five text-center">
+                                <img src="./assets/images/dddad768d829948dd10bdfc192bb43e0.webp" alt="">
+                                <p>وصل حديثا</p>
+                            </div>
+                        </a>
+                        <a href="" style="width: 20%;">
+                            <div class="five text-center">
+                                <img src="./assets/images/Best_Sellers.webp" alt="">
+                                <p>الافضل مبيعا</p>
+                            </div>
+                        </a>
+                        <a href="" style="width: 20%;">
+                            <div class="five text-center">
+                                <img src="./assets/images/Winter_Clearance_846effc9-c87c-4860-894e-739c70be7dbf.webp" alt="">
+                                <p>تصفيات الشتاء</p>
+                            </div>
+                        </a>
+                        <a href="" style="width: 20%;">
+                            <div class="five text-center">
+                                <img src="./assets/images/Accessories_e7d8d84b-7141-48aa-956b-4f68e92023f6.webp" alt="">
+                                <p>الاكسسوارات</p>
+                            </div>
+                        </a>
+        
+                    </div> -->
+            <section class="splide moba d-none" aria-label="Splide Basic HTML Example">
+                <div class="splide__arrows splide__arrows--ltr">
+                    <button class="splide__arrow splide__arrow--prev" style="top: 7rem;" type="button"
+                        aria-label="Previous slide" aria-controls="splide01-track">
+                        <i class="fas fa-angle-right"></i>
+                    </button>
+                    <button class="splide__arrow splide__arrow--next" style="top: 7rem;" type="button"
+                        aria-label="Next slide" aria-controls="splide01-track">
+                        <i class="fas fa-angle-left"></i>
+                    </button>
+                </div>
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <a href="" style="width: 100%;color: #1c2939; text-decoration: none;">
+                                <div class="five text-center ">
+                                    <img src="./assets/images/Kids.webp" alt="">
+                                    <p>كولكشن الاطفالي</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="splide__slide">
+                            <a href="#" style="width: 100%; color: #1c2939; text-decoration: none;">
+                                <div class="five text-center">
+                                    <img src="./assets/images/dddad768d829948dd10bdfc192bb43e0.webp" alt="">
+                                    <p>وصل حديثا</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="splide__slide">
+                            <a href="" style="width: 100%;color: #1c2939; text-decoration: none;">
+                                <div class="five text-center">
+                                    <img src="./assets/images/Best_Sellers.webp" alt="">
+                                    <p>الافضل مبيعا</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="splide__slide">
+                            <a href="" style="width: 100%;color: #1c2939; text-decoration: none;">
+                                <div class="five text-center">
+                                    <img src="./assets/images/Winter_Clearance_846effc9-c87c-4860-894e-739c70be7dbf.webp"
+                                        alt="">
+                                    <p>تصفيات الشتاء</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="splide__slide">
+                            <a href="" style="width: 100%;color: #1c2939; text-decoration: none;">
+                                <div class="five text-center">
+                                    <img src="./assets/images/Accessories_e7d8d84b-7141-48aa-956b-4f68e92023f6.webp"
+                                        alt="">
+                                    <p>الاكسسوارات</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section style="padding-top: 40px;">
+        <div class="head text-center " style="padding:  0px 15px;">
+            <h3>
+                اجدد ما وصل
+                <span></span>
+            </h3>
+        </div>
+        <section class="splide mok" aria-label="Splide Basic HTML Example">
+            <div class="splide__arrows splide__arrows--ltr">
+                <button class="splide__arrow splide__arrow--prev" type="button" aria-label="Previous slide"
+                    aria-controls="splide01-track">
+                    <i class="fas fa-angle-right"></i>
+                </button>
+                <button class="splide__arrow splide__arrow--next" type="button" aria-label="Next slide"
+                    aria-controls="splide01-track">
+                    <i class="fas fa-angle-left"></i>
+                </button>
+            </div>
+            <div class="splide__track">
+                <ul class="splide__list ls-1">
+
+
+                </ul>
+            </div>
+        </section>
+
+    </section>
+    <section style="padding: 15px;">
+        <img src="./assets/images/Perfume_Banners-PC-AR_7e1f7f10-d199-48d6-969d-30bdefd07328.webp" class="caik" alt=""
+            style="width: 100%;">
+    </section>
+    <section style="padding: 40px 15px 0px;">
+        <div class="head text-center " style="padding:  0px 15px;">
+            <h3>
+                افضل الاختيارات
+                <span></span>
+            </h3>
+        </div>
+        <section class="splide lok" aria-label="Splide Basic HTML Example">
+            <div class="splide__arrows splide__arrows--ltr">
+                <button class="splide__arrow splide__arrow--prev" type="button" aria-label="Previous slide"
+                    aria-controls="splide01-track">
+                    <i class="fas fa-angle-right"></i>
+                </button>
+                <button class="splide__arrow splide__arrow--next" type="button" aria-label="Next slide"
+                    aria-controls="splide01-track">
+                    <i class="fas fa-angle-left"></i>
+                </button>
+            </div>
+            <div class="splide__track">
+                <ul class="splide__list kok">
+
+                </ul>
+            </div>
+        </section>
+
+
+    </section>
+    <section style="padding: 20px 15px; display: flex;">
+        <a href="#" class="conc ">
+            <div class="w-100">
+                <img src="./assets/images/Collections_Cover_Home_Page_copy_02b2d24e-6074-490a-9228-d34bd979ee2e.webp"
+                    alt="" style="width: 100%;">
+            </div>
+        </a>
+        <a href="#" class="conc ">
+            <div class="w-100">
+                <img src="./assets/images/Collections_Cover_Home_Page_copy_57e9cdeb-e5de-45da-a337-e2c7483d4860.webp"
+                    alt="" style="width: 100%;">
+            </div>
+        </a>
+        <a href="#" class="conc">
+            <div class="w-100">
+                <img src="./assets/images/Collections_Cover_Home_Page_copy_b6e779fd-fd51-4a09-bbbb-2f1b23e47ea1.webp"
+                    alt="" style="width: 100%;">
+            </div>
+        </a>
+        <section class="splide goma d-md-none " aria-label="Splide Basic HTML Example">
+            <div class="splide__arrows splide__arrows--ltr">
+                <button class="splide__arrow splide__arrow--prev" style="top: 50%;" type="button"
+                    aria-label="Previous slide" aria-controls="splide01-track">
+                    <i class="fas fa-angle-right"></i>
+                </button>
+                <button class="splide__arrow splide__arrow--next" style="top: 50%" type="button" aria-label="Next slide"
+                    aria-controls="splide01-track">
+                    <i class="fas fa-angle-left"></i>
+                </button>
+            </div>
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <a href="#">
+                            <div class="w-100">
+                                <img src="./assets/images/Collections_Cover_Home_Page_copy_b6e779fd-fd51-4a09-bbbb-2f1b23e47ea1.webp"
+                                    alt="" style="width: 100%;">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="splide__slide">
+                        <a href="#">
+                            <div class="w-100">
+                                <img src="./assets/images/Collections_Cover_Home_Page_copy_57e9cdeb-e5de-45da-a337-e2c7483d4860.webp"
+                                    alt="" style="width: 100%;">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="splide__slide">
+                        <a href="#">
+                            <div class="w-100">
+                                <img src="./assets/images/Collections_Cover_Home_Page_copy_02b2d24e-6074-490a-9228-d34bd979ee2e.webp"
+                                    alt="" style="width: 100%;">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </section>
+
+    <section style="padding: 20px 15px; ">
+        <a href="" style="width: 100%;">
+            <img src="./assets/images/Like_Father_Like_Son-PC-EN.webp" alt="" class="w-100 caik">
+        </a>
+    </section>
+    <section style="padding: 40px 15px 0px;">
+        <div class="head text-center " style="padding:  0px 15px;">
+            <h3>
+                قمصان أخر شياكة
+                <span></span>
+            </h3>
+        </div>
+        <section class="splide goh" aria-label="Splide Basic HTML Example">
+            <div class="splide__arrows splide__arrows--ltr">
+                <button class="splide__arrow splide__arrow--prev" type="button" aria-label="Previous slide"
+                    aria-controls="splide01-track">
+                    <i class="fas fa-angle-right"></i>
+                </button>
+                <button class="splide__arrow splide__arrow--next" type="button" aria-label="Next slide"
+                    aria-controls="splide01-track">
+                    <i class="fas fa-angle-left"></i>
+                </button>
+            </div>
+            <div class="splide__track">
+                <ul class="splide__list moj">
+
+                </ul>
+            </div>
+        </section>
+
+
+    </section>
+    <section style="padding: 20px 15px; display: flex;">
+        <a href="#" class="conc ">
+            <div class="w-100">
+                <img src="assets/images/Collections_Cover_Home_Page_6056c041-b32e-44ea-89a9-kolekshnshort.webp" alt=""
+                    style="width: 100%;">
+            </div>
+        </a>
+        <a href="#" class="conc ">
+            <div class="w-100">
+                <img src="assets/images/Collections_Cover_Home_Page_442cc063-457f-446c-9f3a-sweetbans.webp" alt=""
+                    style="width: 100%;">
+            </div>
+        </a>
+        <a href="#" class="conc">
+            <div class="w-100">
+                <img src="assets/images/Collections_Cover_Home_Page_e9560856-05f2-404a-b46f-5f465257jens.webp" alt=""
+                    style="width: 100%;">
+            </div>
+        </a>
+        <section class="splide goo d-md-none " aria-label="Splide Basic HTML Example">
+            <div class="splide__arrows splide__arrows--ltr">
+                <button class="splide__arrow splide__arrow--prev" style="top: 50%;" type="button"
+                    aria-label="Previous slide" aria-controls="splide01-track">
+                    <i class="fas fa-angle-right"></i>
+                </button>
+                <button class="splide__arrow splide__arrow--next" style="top: 50%" type="button" aria-label="Next slide"
+                    aria-controls="splide01-track">
+                    <i class="fas fa-angle-left"></i>
+                </button>
+            </div>
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <a href="#">
+                            <div class="w-100">
+                                <img src="assets/images/Collections_Cover_Home_Page_6056c041-b32e-44ea-89a9-kolekshnshort.webp"
+                                    alt="" style="width: 100%;">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="splide__slide">
+                        <a href="#">
+                            <div class="w-100">
+                                <img src="assets/images/Collections_Cover_Home_Page_442cc063-457f-446c-9f3a-sweetbans.webp"
+                                    alt="" style="width: 100%;">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="splide__slide">
+                        <a href="#">
+                            <div class="w-100">
+                                <img src="assets/images/Collections_Cover_Home_Page_e9560856-05f2-404a-b46f-5f465257jens.webp"
+                                    alt="" style="width: 100%;">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </section>
+    <div class="row g-3" style="padding: 55px 0px 25px; margin: 40px 15px 30px !important; background-color: #8f9eaa;">
+        <div class="col-xl-3 col-md-6 d-flex flex-row gap-3 " style="padding: 0px 15px;">
+            <i class="fas fa-car-rear" style="font-size: 32px;"></i>
+            <div class="text-sb d-flex flex-column">
+                <h3 style="font-size: 14px; margin:0% 0px 6px;">
+                    توصيل سريع
+                </h3>
+                <p style="color: white;">توصيل خلال 3 ايام عمل فى القاهرة والجيزه</p>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 d-flex flex-row gap-3" style="padding: 0px 15px;">
+            <i class="fas fa-life-ring" style="font-size: 32px;"></i>
+            <div class="text-sb d-flex flex-column">
+                <h3 style="font-size: 14px; margin: 0% 0px 6px;">
+                    خدمة عملاء احترافية فى خدمتك
+                </h3>
+                <p style="color: white; margin-bottom: 10px;">من السبت الى الخميس من الساعة 10 صباحا حتى 6 مساء</p>
+                <p style="color: white;">اتصل بنا : 01005405844</p>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 d-flex flex-row gap-3" style="padding: 0px 15px;">
+            <i class="fas fa-retweet" style="font-size: 32px;"></i>
+            <div class="text-sb d-flex flex-column">
+                <h3 style="font-size: 14px; margin:0% 0px 6px;">
+                    استبدال واسترجاع خلال 14 يوم
+                </h3>
+                <p style="color: white;">توصيل خلال 3 ايام عمل فى القاهرة والجيزاستبدل او استرجع المنتج بسهوله فى خلال 14 يوم</p>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 d-flex flex-row gap-3" style="padding: 0px 15px;">
+            <i class="fas fa-lock" style="font-size: 32px;"></i>
+            <div class="text-sb d-flex flex-column">
+                <h3 style="font-size: 14px; margin:0% 0px 6px;">
+                    أدفع كاش او فيزا وانت مطمن
+                </h3>
+                <p style="color: white;">نوفر لك وسائل دفع امنه, أختار من طرق الدفع المتاحه ( فيزا - بطاقات ائتمانيه - كاش .. )</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+    <script src="splide-4.1.3/dist/js/splide.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+
+</html>
